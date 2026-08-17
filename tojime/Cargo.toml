@@ -1,0 +1,18 @@
+[package]
+name = "tojime"
+version = "0.1.0"
+description = "Tojime (綴じ目) — git's wire layer: pkt-line framing and the protocol-v2 command surface"
+categories = ["parser-implementations"]
+keywords = ["git", "pktline", "protocol"]
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+thiserror.workspace = true

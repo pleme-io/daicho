@@ -1,0 +1,20 @@
+[package]
+name = "daicho"
+version = "0.1.0"
+description = "Daicho (台帳) — the master ledger: a no-shell, native git engine with a typed border"
+categories = ["development-tools"]
+keywords = ["git", "vcs", "no-shell"]
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+thiserror.workspace = true
+tojime = { version = "0.1.0", path = "../tojime" }
+genbo = { version = "0.1.0", path = "../genbo" }

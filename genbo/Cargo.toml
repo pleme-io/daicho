@@ -1,0 +1,20 @@
+[package]
+name = "genbo"
+version = "0.1.0"
+description = "Genbo (原簿) — git's object database: object model, packfile reader, delta resolution"
+categories = ["parser-implementations"]
+keywords = ["git", "packfile", "object"]
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+thiserror.workspace = true
+sha1.workspace = true
+zlib-rs.workspace = true
