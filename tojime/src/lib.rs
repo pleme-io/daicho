@@ -7,12 +7,17 @@
 //!
 //! # Name status
 //!
-//! **PROPOSED, ratified pending operator sign-off.** The Law 4 corpus sweep is
+//! **RATIFIED 2026-08-17 by operator decision.** The Law 4 corpus sweep is
 //! complete on every axis — org repo dirs, `theory/`, `VOCABULARY.md`, and
-//! crates.io (checked 2026-08-17: `tojime` returns 404, i.e. free) — which is
-//! the axis an on-disk sweep structurally cannot see and the one that has burnt
-//! this fleet twice. Nothing blocks the name; only the ratification step
-//! remains.
+//! crates.io (checked 2026-08-17: `tojime` returns 404, i.e. free), the axis an
+//! on-disk sweep structurally cannot see and the one that has burnt this fleet
+//! twice.
+//!
+//! Recorded near-miss so nobody re-litigates it: `todojimari` (戸締り, blue's
+//! artifact contract) shares a romaji run and collides on nothing — 綴じる
+//! *bind* and 締める *fasten* are different verbs with different kanji, the
+//! glosses and families differ, and three syllables against five is not the
+//! `shinsa`/`shinka` shape.
 //!
 //! # Scope
 //!
