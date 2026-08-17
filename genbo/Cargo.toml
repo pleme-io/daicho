@@ -18,3 +18,7 @@ workspace = true
 thiserror.workspace = true
 sha1.workspace = true
 zlib-rs.workspace = true
+
+[dev-dependencies]
+tempfile = "3"
+sha1.workspace = true

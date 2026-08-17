@@ -33,7 +33,9 @@
 pub mod commit;
 pub mod graph;
 pub mod oid;
+pub mod pack;
 
 pub use commit::{parents, CommitError, Parents};
 pub use graph::{Verdict, WalkError, Walker};
 pub use oid::{Kind, ObjectId, OidError};
+pub use pack::{EntryHeader, EntryKind, PackError};
