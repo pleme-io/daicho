@@ -2,8 +2,7 @@
 //! volume*. Git's wire layer: pkt-line framing and the protocol-v2 command
 //! surface.
 //!
-//! Member of The Record 録 family, seeded by `daicho` (台帳). See
-//! `theory/DAICHO.md`.
+//! Member of The Record 録 family, seeded by `daicho` (台帳).
 //!
 //! # Name status
 //!
@@ -35,8 +34,8 @@
 //! `Arguments` internally and never yields them. So the **partial-clone
 //! filter** — the difference between 1.65 MiB and 39.4 MiB for one repo's
 //! commit DAG — is unreachable from the API a consumer actually calls.
-//! `theory/NATURALIZE-GIT-GH.md` §10 names that exact situation as the
-//! falsifier for its own "compose, don't rebuild" verdict.
+//! That is exactly the situation that falsifies the "compose, don't
+//! rebuild" verdict.
 //!
 //! Tier-honest: that is the *first* clause of the documented re-entry
 //! condition. The second — *"that upstream refuses"* — is **UNTESTED**; no
